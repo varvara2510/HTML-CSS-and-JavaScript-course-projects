@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(90, 191, 90), rgb(201, 247, 201));
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, .3);
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+    width: 90%;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.currency-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currency-container select {
+    padding: 10px;
+}
+
+.currency-container input {
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    text-align: right;
+}
+
+.exchange-rate {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+select:focus,
+input:focus {
+    outline: 0;
+}
